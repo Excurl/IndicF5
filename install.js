@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/ai4bharat/IndicF5 app",
+          "git clone https://github.com/ai4bharat/IndicF5.git app",
         ]
       }
     },
