@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "2.0",
   title: "e2-f5-tts",
-  description: "IndicF5: High-Quality Text-to-Speech for Indian Languages https://huggingface.co/ai4bharat/IndicF5",
+  description: "IndicF5: High-Quality Text-to-Speech for Indian Languages https://huggingface.co/spaces/ai4bharat/IndicF5",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
